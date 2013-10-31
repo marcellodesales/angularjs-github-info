@@ -2,8 +2,9 @@
     <script src="vendor/js/respond.min.js"></script>
 
     <script type="text/javascript">
-      var customTags = ['ng-include', 'ng-pluralize', 'ng-view']
+      var customTags = ['ng-include', 'ng-pluralize', 'ng-view', 'ng-repeat']
         .concat(['tabs', 'pane']) // app tags
         .concat(['ng:include', 'ng:pluralize', 'ng:view']); // Optionally these for CSS
-      for(var t=0, len=customTags.length;t<len;t++) document.createElement(customTags[t]);  
-    </script><![endif]--><link href="styles/app.css" rel="stylesheet" type="text/css"><link rel="apple-touch-icon-precomposed" sizes="144x144" href="vendor/bootstrap/ico/apple-touch-icon-144-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="vendor/bootstrap/ico/apple-touch-icon-114-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="vendor/bootstrap/ico/apple-touch-icon-72-precomposed.png"><link rel="apple-touch-icon-precomposed" href="vendor/bootstrap/ico/apple-touch-icon-57-precomposed.png"><link rel="shortcut icon" href="vendor/bootstrap/ico/favicon.png"></head><body><navbar title="AngularJS - GitHub Info"></navbar><div class="container"><div id="github-app" ng-view="" ng-cloak=""></div></div><script src="scripts/scripts.min.js?v=ed8ef3836f"></script></body></html>
+      for(var t=0, len=customTags.length;t<len;t++) document.createElement(customTags[t]);
+      if(!window.console) window.console = {}; window.console.log = function(msg) {};
+    </script><![endif]--><link href="styles/app.css" rel="stylesheet" type="text/css"><link rel="apple-touch-icon-precomposed" sizes="144x144" href="vendor/bootstrap/ico/apple-touch-icon-144-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="vendor/bootstrap/ico/apple-touch-icon-114-precomposed.png"><link rel="apple-touch-icon-precomposed" sizes="72x72" href="vendor/bootstrap/ico/apple-touch-icon-72-precomposed.png"><link rel="apple-touch-icon-precomposed" href="vendor/bootstrap/ico/apple-touch-icon-57-precomposed.png"><link rel="shortcut icon" href="vendor/bootstrap/ico/favicon.png"></head><body><navbar title="AngularJS - GitHub Info"></navbar><div class="container"><div id="github-app" ng-view="" ng-cloak=""></div></div><script src="scripts/scripts.min.js?v=8753028d41"></script></body></html>
